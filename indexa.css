@@ -56,7 +56,8 @@
     overflow: hidden;
 }
 .slide-menu li{
-    color: #fff;
+    /* color: #fff; */
+    background-color: rgb(189, 189, 189);
     list-style: none;
     line-height: 400%;
     text-align: center;
