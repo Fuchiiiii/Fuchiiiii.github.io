@@ -100,3 +100,18 @@ dd {
     margin-left: 0;
     margin-bottom: 5px;
 }
+.video-container{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+/* video {
+    width: 100%; 
+    max-width: 600px;
+    height: auto; 
+    object-fit: contain;
+    background-color: black; 
+} */
+.major{
+    background-color: antiquewhite;
+}

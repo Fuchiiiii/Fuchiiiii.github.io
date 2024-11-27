@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Fumichika Okajima's Portfolio</title>
-        <meta charset="utf-8" />
+        <title>Okajima-portfolio</title>
+        <meta charset="utf-8">
         <link rel="stylesheet" href="index.css" />
     </head>
     <body>
@@ -10,7 +10,7 @@
         <!-- Header -->
             <header>
                 <div class="header-area">
-                    <h2 class="sitename">Fumichika Okajima's Portfolio</h1>
+                    <h2 class="sitename">Fumichika Okajima</h1>
                     <div class="hamburger">
                         <span></span>
                         <span></span>
@@ -18,8 +18,8 @@
                     </div>
                 </div>
                 <ul class="slide-menu">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="index.html">test</a></li>
+                    <li><a href="#one" class="menu-link">作品</a></li>
+                    <li><a href="#two" class="menu-link">自己紹介</a></li>
                 </ul>
             </header>
         
@@ -33,29 +33,49 @@
                 <!--画像入れるかも-->
                 <div class="content">
                     <header class="major">
-                        <h2 class="text-center">Works</h2>
+                        <h2 class="text-center">作品</h2>
                     </header>
-                    <h4>CookBase</h4>
-                    <div class="row">
-                        <ここに写真>
+                    <h4 class="text-center">CookBase</h4>
+                    <div class="video-container">
+                        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/cvB7L-ItvjM?si=ZXnMxJGHI5WDDn2X" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <!-- <video ></video> -->
+                    </div>
+                    <dl class="works1">
+                        <dt>アプリ名</dt>
+                        <dd>CookBase</dd>
+                        <dt>説明</dt>
+                        <dd>料理をするにあたって必要なアプリを統合した便利アプリ</dd>
+                        <dt>機能</dt>
+                        <dd>カレンダー/レシピメモ/買い物メモ/タイマー</dd>
+                        <dt>担当場所</dt>
+                        <dd>レシピメモ</dd>
+                        <dt>使用技術</dt>
+                        <dd>html/javascript/css/github/fire base</dd>
+                        <dt>コメント</dt>
+                        <dd id="aaa">チーム開発の練習をしようということで、Webアプリを作成することになりました。
+                            データベースやgithubなど新しく学ぶ技術もあり大変でしたが、チーム開発の楽しさや大変さを学ぶことができました。
+                        </dd>
+                    </dl>
+                    <h4 class="text-center">受注管理アプリケーション</h4>
+                    <div class="video-container">
+                        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/3fkTshbw0X0?si=FvB3KxmXkaBhEKug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <!-- <video  controls></video> -->
+                    </div>
                         <dl class="works1">
                             <dt>アプリ名</dt>
-                            <dd>CookBase</dd>
+                            <dd>受注管理</dd>
                             <dt>説明</dt>
-                            <dd>料理をするにあたって必要なアプリを統合して、アプリ間の移動をなくす便利アプリ。</dd>
+                            <dd>受注管理を行うWindows用のアプリケーション</dd>
                             <dt>機能</dt>
-                            <dd>カレンダー/レシピメモ/買い物メモ/タイマー</dd>
+                            <dd>数値を入力し、その内容をCSVに保存することができます。また、受注Noを入力することで、そのNoに紐づけられたデータを出力することができます。</dd>
                             <dt>担当場所</dt>
-                            <dd>レシピメモ</dd>
+                            <dd>全て</dd>
                             <dt>使用技術</dt>
-                            <dd>html/javascript/css/github/fire base</dd>
+                            <dd>C++</dd>
                             <dt>コメント</dt>
-                            <dd>チーム開発の練習をしようということで、Webアプリを作成することになりました。
-                                データベースやgithubなど新しく学ぶ技術もあり大変でしたが、
-                            </dd>
+                            <dd>インターンシップで作成したアプリケーションです。詳細設計書、開発、テスト、発表の工程を2週間で行いました。詳細設計書を誰が見ても分かるように書くのが難しかったです。
+                                プログラミングでは、小数点入力時の桁数制限やカンマの挿入に苦労しました。</dd>
                         </dl>
-                        <ここに動画>
-                    </div>
                 </div>
             </div>
             </section>
@@ -66,14 +86,15 @@
                     <!-- <span class="image fit primary"><img src="images/pic01.jpg" alt="" /></span> -->
                         <div class="content">
                             <header class="major">
-                                <h2 class="text-center">About me</h2>
+                                <h2 class="text-center">自己紹介</h2>
                             </header>
-                            <p>
-                                岡島 史周<br>
-                                小さい頃にフリーゲームを触って、パソコンの構造やプログラミングについて学びたくなりました。開発の際は、ユーザーの視点に立ってどうしたら使いやすくなるかを考えることを意識しています。<br>
-                                趣味　スキー/ゲーム/漫画/アニメ・動画鑑賞<br>
-                                
-                            </p>
+                            <h4 class="text-center">岡島 史周</h4>
+                            <dl>
+                                <dt>コメント</dt>
+                                <dd>小さい頃にフリーゲームを触ったことで、パソコンの構造やプログラミングについて学びたくなりました。開発の際は、ユーザーから見てどうしたら使いやすくなるかを意識しています。</dd>
+                                <dt>趣味</dt>
+                                <dd>スキー/ゲーム/漫画/アニメ・動画鑑賞</dd>
+                            </dl>
                         </div>
                     </div>
             </section>
@@ -84,14 +105,18 @@
                     <!--画像入れるかも-->
                     <div class="content">
                         <header class="major">
-                            <h2 class="text-center">Skill</h2>
+                            <h2 class="text-center">スキル・経験</h2>
                         </header>
-                        <p>
-                            <li>OS -- Windows/Mac</li>
-                            <li>言語 -- HTML/CSS/javaScript/PHP/Python/Java/C/C++</li>
-                            <li>アルバイト -- 飲食店、ホームセンター</li>
-                            <li>資格 -- 英検準2級、普通免許AT限定</li>
-                        </p>
+                        <dl>
+                            <dt>OS</dt>
+                            <dd>Windows/Mac</dd>
+                            <dt>技術</dt>
+                            <dd>HTML/CSS/javaScript/PHP/Python/Java/C/C++</dd>
+                            <dt>経験</dt>
+                            <dd>飲食店、ホームセンターでのアルバイト/県外で2週間のインターンシップ</dd>
+                            <dt>資格</dt>
+                            <dd>普通自動車第一種免許AT限定</dd>
+                        </dl>
                     </div>
                 </div>
              </section>
@@ -99,11 +124,10 @@
         </main>
         <!-- Footer -->
         <footer>
-        <ul class="icons">
-            <li><a href="#" class="icon brands alt fa-twitter"><span class="label">X</span></a></li>
-                <li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-                <li><a href="#" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
-        </ul>
+        <dl class="icons">
+            <dt>Email</dt>
+            <dd>k22028kk@aitech.ac.jp</dd>
+        </dl>
         <ul class="copyright">
 
         </ul>
