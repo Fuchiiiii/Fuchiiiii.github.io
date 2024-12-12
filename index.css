@@ -119,6 +119,7 @@ dd {
     justify-content: center;
     align-items: center; 
     max-width: 100%;
+    text-align: center;
 }
 /* video {
     width: 100%; 
